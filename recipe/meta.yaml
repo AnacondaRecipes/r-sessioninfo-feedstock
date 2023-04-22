@@ -24,11 +24,11 @@ requirements:
   build:
 
   host:
-    - r-base
+    - r-base  {{ r_version }}
     - r-cli
     - r-withr
   run:
-    - r-base
+    - r-base  {{ r_version }}
     - r-cli
     - r-withr
 
